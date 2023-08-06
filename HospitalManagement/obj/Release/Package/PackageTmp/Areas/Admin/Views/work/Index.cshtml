@@ -1,0 +1,126 @@
+﻿@using BELibrary.Entity
+@using BELibrary.Utils
+@model List<PatientRecord>
+@{
+    var baseURL = "/Areas/Admin/content";
+    ViewBag.Title = ViewBag.Feature + " " + ViewBag.Element;
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+    var patient = (Patient)ViewBag.Patient;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from doccure-html.dreamguystech.com/template/calendar.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Aug 2021 14:07:21 GMT -->
+<head>
+    <meta charset="utf-8" />
+    <title>Doccure</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, user-scalable=0" />
+
+    <link href="@baseURL/assets/img/favicon.png" rel="icon" />
+
+    <link rel="stylesheet"
+          href="@baseURL/assets/plugins/fontawesome/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="@baseURL/assets/plugins/fontawesome/css/all.min.css" />
+
+    <link rel="stylesheet" href="@baseURL/assets/css/bootstrap-datetimepicker.min.css" />
+
+    <link rel="stylesheet"
+          href="@baseURL/assets/plugins/fullcalendar/fullcalendar.min.css" />
+    <style>
+
+        #calendar-events {
+            background-color: #fcfcfc;
+        }
+    </style>
+</head>
+<body>
+    <div class="main-wrapper">
+        <br />
+
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12 col-xl-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <div id="calendar"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script data-cfasync="false"
+            src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="@baseURL/assets/js/jquery.min.js"></script>
+
+    <script src="@baseURL/assets/js/popper.min.js"></script>
+    <script src="@baseURL/assets/js/bootstrap.min.js"></script>
+
+    <script src="@baseURL/assets/plugins/theia-sticky-sidebar/ResizeSensor.js"></script>
+    <script src="@baseURL/assets/plugins/theia-sticky-sidebar/theia-sticky-sidebar.js"></script>
+
+    <script src="@baseURL/assets/js/moment.min.js"></script>
+    <script src="@baseURL/assets/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="@baseURL/assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <script src="~/Content/plugin/fullcalendar-6.1.7/dist/index.global.min.js"></script>
+    @*<script src="@baseURL/assets/plugins/fullcalendar/fullcalendar.min.js"></script>
+        <script src="@baseURL/assets/plugins/fullcalendar/jquery.fullcalendar.js"></script>*@
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            loadDoctorScheduleDetail().then((data) => {
+
+                const events = data.data.map(x => { return { title: `Bệnh nhân: ${x.PatientName}`, start: x.StartDateTime, end: x.EndDateTime } });
+
+                var calendarEl = document.getElementById('calendar');
+
+                var calendar = new FullCalendar.Calendar(calendarEl, {
+                    headerToolbar: {
+                        left: 'prevYear,prev,next,nextYear today',
+                        center: 'title',
+                        right: 'dayGridMonth,dayGridWeek,dayGridDay'
+                    },
+                    //initialDate: '2023-01-12',
+                    navLinks: true, // can click day/week names to navigate views
+                    editable: false,
+                    dayMaxEvents: true, // allow "more" link when too many events
+                    events: events
+                });
+
+                calendar.render();
+            });
+
+            
+        });
+        function loadDoctorScheduleDetail() {
+            const data = [];
+            return $.ajax({
+                url: '@Url.Action("DoctorScheduleDetail", "Work")',
+                type: 'GET',
+                //success: function (response) {
+                //    console.log('data', response.data)
+                //    response.data.forEach((item) => {
+                //        data.push(item);
+                //    });
+                //},
+                //error: function (e) {
+                //    Lobibox.alert("error", {
+                //        msg: e.message
+                //    });
+                //}
+            });
+        }
+    </script>
+
+</body>
+</html>
+
+

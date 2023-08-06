@@ -1,0 +1,404 @@
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\HospitalManagement.dll.config
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\HospitalManagement.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\HospitalManagement.pdb
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\AutoMapper.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\BELibrary.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\CKFinder.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\log4net.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\PagedList.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.ValueTuple.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\WebGrease.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Z.EntityFramework.Extensions.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Z.Expressions.Eval.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\BELibrary.pdb
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\BELibrary.dll.config
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\AutoMapper.pdb
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\AutoMapper.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\log4net.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\PagedList.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.ValueTuple.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Z.EntityFramework.Extensions.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\bin\Z.Expressions.Eval.xml
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\obj\Debug\HospitalManagement.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\obj\Debug\HospitalManagement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\obj\Debug\HospitalManagement.csproj.CopyComplete
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\obj\Debug\HospitalManagement.dll
+C:\Users\Admin\Desktop\clinic-main\HospitalManagement\obj\Debug\HospitalManagement.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\HospitalManagement.dll.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\HospitalManagement.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\HospitalManagement.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\AutoMapper.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\BELibrary.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\CKFinder.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\log4net.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\PagedList.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.ValueTuple.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Razor.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\WebGrease.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Extensions.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Z.Expressions.Eval.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\BELibrary.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\BELibrary.dll.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\AutoMapper.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\AutoMapper.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\log4net.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\PagedList.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.ValueTuple.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Razor.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Extensions.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\bin\Z.Expressions.Eval.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.CopyComplete
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.pdb
+D:\KLTN\minhthoclinic\HospitalManagement\bin\HospitalManagement.dll.config
+D:\KLTN\minhthoclinic\HospitalManagement\bin\HospitalManagement.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\HospitalManagement.pdb
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\csc.exe
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\csc.exe.config
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\csc.rsp
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\csi.exe
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\csi.exe.config
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\csi.rsp
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.Managed.Core.targets
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.AppContext.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Console.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Compression.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.FileSystem.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Pipes.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.AccessControl.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Claims.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Principal.Windows.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.ValueTuple.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XmlDocument.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XPath.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\vbc.exe
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\vbc.exe.config
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\vbc.rsp
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\VBCSCompiler.exe
+D:\KLTN\minhthoclinic\HospitalManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Antlr3.Runtime.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\AutoMapper.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\BELibrary.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\CKFinder.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\EntityFramework.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\EntityFramework.SqlServer.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\log4net.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Newtonsoft.Json.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\PagedList.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\PagedList.Mvc.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.ValueTuple.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Helpers.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Mvc.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Optimization.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Razor.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Deployment.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Razor.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\WebGrease.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Extensions.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Z.Expressions.Eval.dll
+D:\KLTN\minhthoclinic\HospitalManagement\bin\BELibrary.pdb
+D:\KLTN\minhthoclinic\HospitalManagement\bin\BELibrary.dll.config
+D:\KLTN\minhthoclinic\HospitalManagement\bin\AutoMapper.pdb
+D:\KLTN\minhthoclinic\HospitalManagement\bin\AutoMapper.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\EntityFramework.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\EntityFramework.SqlServer.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\log4net.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\PagedList.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\PagedList.Mvc.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.ValueTuple.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Helpers.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Mvc.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Optimization.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.Razor.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Deployment.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Razor.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Newtonsoft.Json.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Antlr3.Runtime.pdb
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Extensions.xml
+D:\KLTN\minhthoclinic\HospitalManagement\bin\Z.Expressions.Eval.xml
+D:\KLTN\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.AssemblyReference.cache
+D:\KLTN\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.CoreCompileInputs.cache
+D:\KLTN\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.CopyComplete
+D:\KLTN\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.dll
+D:\KLTN\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\HospitalManagement.dll.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\HospitalManagement.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\HospitalManagement.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\csc.exe
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\csc.exe.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\csc.rsp
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\csi.exe
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\csi.exe.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\csi.rsp
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.Managed.Core.targets
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.AppContext.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Collections.Immutable.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Console.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Compression.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.FileSystem.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.IO.Pipes.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Reflection.Metadata.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.AccessControl.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Claims.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Security.Principal.Windows.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.ValueTuple.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XmlDocument.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XPath.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\vbc.exe
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\vbc.exe.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\vbc.rsp
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\VBCSCompiler.exe
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\roslyn\VBCSCompiler.exe.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Antlr3.Runtime.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\AutoMapper.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\BELibrary.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\CKFinder.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\EntityFramework.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\EntityFramework.SqlServer.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\log4net.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Microsoft.Web.Infrastructure.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Newtonsoft.Json.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\PagedList.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\PagedList.Mvc.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.ValueTuple.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Helpers.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Mvc.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Optimization.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Razor.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Deployment.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Razor.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\WebGrease.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Extensions.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Z.Expressions.Eval.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\BELibrary.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\BELibrary.dll.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\AutoMapper.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\AutoMapper.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\EntityFramework.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\EntityFramework.SqlServer.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\log4net.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\PagedList.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\PagedList.Mvc.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.ValueTuple.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Helpers.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Mvc.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Optimization.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.Razor.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Deployment.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\System.Web.WebPages.Razor.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Newtonsoft.Json.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Antlr3.Runtime.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Plus.EF6.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Z.EntityFramework.Extensions.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\bin\Z.Expressions.Eval.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.AssemblyReference.cache
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.CoreCompileInputs.cache
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.csproj.CopyComplete
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\HospitalManagement\obj\Debug\HospitalManagement.pdb

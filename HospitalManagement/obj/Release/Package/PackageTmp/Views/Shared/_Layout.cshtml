@@ -1,0 +1,811 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Minh Thọ Clinic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+
+    <link href="~/Content/theme/img/favicon.png" rel="icon">
+
+    <link rel="stylesheet" href="~/Content/theme/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="~/Content/theme/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/Content/theme/plugins/fontawesome/css/all.min.css">
+
+    <link href="~/Content/alertify/alertify.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="~/Content/theme/css/cssstyle.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css">
+
+    <link href="~/Content/plugin/notifyjs/lobibox.min.css" rel="stylesheet" />
+    <!---->
+    <link rel="stylesheet" href="~/Content/assets/plugins/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="~/Content/assets/plugins/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="~/Content/assets/plugins/daterangepicker/daterangepicker.css">
+    <!---->
+    @RenderSection("CSS", required: false)
+    <!--[if lt IE 9]>
+                <script src="~/Content/theme/js/html5shiv.min.js"></script>
+                <script src="~/Content/theme/js/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+
+        .Scroll-up {
+            font-size: 30px;
+            color: #03a9f4;
+            background-color: #f8f8f8;
+            width: 45px;
+            height: 45px;
+            text-align: center;
+            border-radius: 50px;
+            position: fixed;
+            right: 20px;
+            bottom: 10px;
+            z-index: 9999;
+            cursor: pointer;
+            border: 2px solid #03a9f4;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main-wrapper">
+        <!-- Header -->
+        @Html.Partial("_PartialHeader")
+
+        <!-- Start main-content -->
+
+        @RenderBody()
+
+        <div class="clearfix"></div>
+        <!-- Footer -->
+        @Html.Partial("_PartialFooter")
+    </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel2">Đặt lịch hẹn</h5>
+                    <button class="close" type="button" data-dismiss="modal" aria-label="Close" data-original-title="" title=""><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="booking-doc-info">
+                                <a href="" class="booking-doc-img link-to-detail-doctor">
+                                    <img src="" id="ImgAvt" alt="User Image">
+                                </a>
+                                <div class="booking-info">
+                                    <h4>Bác sĩ : <a href="" class="link-to-detail-doctor" id="doctor-name">Minh Thọ Clinic</a></h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                        <i class="fas fa-star filled"></i>
+                                    </div>
+                                    <p class="text-muted mb-0"><span id="doctor-des"></span></p>
+                                    <p class="text-muted mb-0"><i class="fas fa-envelope"></i> <span id="doctor-email"></span></p>
+                                    <p class="text-muted mb-0"><i class="fas fa-phone"></i> <span id="doctor-phone"></span></p>
+                                    <p class="text-muted mb-0"><i class="fas fa-map-marker-alt"></i> <span id="doctor-address"></span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form id="form-book-doctor">
+                        <div class="form-group">
+                            <input type="hidden" value="" id="doctor-id" name="doctorId" />
+                            <label class="col-form-label">Ngày hẹn khám:</label>
+                            <input class="form-control date-time-select" name="time" type="date" value="@DateTime.Now.ToString("yyyy-MM-dd")" data-original-title="" title="" onchange="dateTimeSelectOnChange()">
+                        </div>
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-12">
+                                    @*<div class="row">
+                                            <div class="col-12 col-sm-4 col-md-6">
+                                                <h4 class="mb-1">@DateTime.Now</h4>
+                                                <p class="text-muted" id="dayOfWeek"></p>
+                                            </div>
+                                            <div class="col-12 col-sm-8 col-md-6 text-sm-right">
+                                                <div class="bookingrange btn btn-white btn-sm mb-3">
+                                                    <i class="far fa-calendar-alt mr-2"></i>
+                                                    <span></span>
+                                                    <i class="fas fa-chevron-down ml-2"></i>
+                                                </div>
+                                            </div>
+                                        </div>*@
+
+                                    <div class="card booking-schedule schedule-widget">
+
+                                        @*<div class="schedule-header">
+                                                <div class="row">
+                                                    <div class="col-md-12">
+
+                                                        <div class="day-slot">
+                                                            <ul>
+                                                                <li class="left-arrow">
+                                                                    <a href="#">
+                                                                        <i class="fa fa-chevron-left"></i>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Mon</span>
+                                                                    <span class="slot-date">11 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Tue</span>
+                                                                    <span class="slot-date">12 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Wed</span>
+                                                                    <span class="slot-date">13 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Thu</span>
+                                                                    <span class="slot-date">14 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Fri</span>
+                                                                    <span class="slot-date">15 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Sat</span>
+                                                                    <span class="slot-date">16 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li>
+                                                                    <span>Sun</span>
+                                                                    <span class="slot-date">17 Nov <small class="slot-year">2023</small></span>
+                                                                </li>
+                                                                <li class="right-arrow">
+                                                                    <a href="#">
+                                                                        <i class="fa fa-chevron-right"></i>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>*@
+
+                                        <div class="schedule-cont">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <div class="time-slot">
+                                                        <ul class="clearfix">
+                                                            <li id="data-frame-times">
+                                                                <a class="timing active_select" href="#" data-value="1">
+                                                                    <span>7:30</span> - <span>8:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="2">
+                                                                    <span>8:30</span> - <span>9:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="3">
+                                                                    <span>9:30</span> - <span>10:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="4">
+                                                                    <span>10:30</span> - <span>11:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="5">
+                                                                    <span>13:30</span> - <span>14:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="6">
+                                                                    <span>14:30</span> - <span>15:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="7">
+                                                                    <span>15:30</span> - <span>16:30</span>
+                                                                </a>
+                                                                <a class="timing" href="#" data-value="8">
+                                                                    <span>16:30</span> - <span>17:30</span>
+                                                                </a>
+                                                            </li>
+                                                            @*<li>
+                                                                    <a class="timing" href="#">
+                                                                        <span>7:30</span> - <span>8:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>8:30</span> - <span>9:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>9:30</span> - <span>10:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>10:30</span> - <span>11:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>13:30</span> - <span>14:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>14:30</span> - <span>15:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>15:30</span> - <span>16:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>16:30</span> - <span>17:30</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="timing" href="#">
+                                                                        <span>7:30</span> - <span>8:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>8:30</span> - <span>9:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>9:30</span> - <span>10:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>10:30</span> - <span>11:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>13:30</span> - <span>14:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>14:30</span> - <span>15:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>15:30</span> - <span>16:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>16:30</span> - <span>17:30</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="timing" href="#">
+                                                                        <span>7:30</span> - <span>8:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>8:30</span> - <span>9:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>9:30</span> - <span>10:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>10:30</span> - <span>11:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>13:30</span> - <span>14:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>14:30</span> - <span>15:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>15:30</span> - <span>16:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>16:30</span> - <span>17:30</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="timing" href="#">
+                                                                        <span>7:30</span> - <span>8:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>8:30</span> - <span>9:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>9:30</span> - <span>10:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>10:30</span> - <span>11:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>13:30</span> - <span>14:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>14:30</span> - <span>15:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>15:30</span> - <span>16:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>16:30</span> - <span>17:30</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="timing" href="#">
+                                                                        <span>7:30</span> - <span>8:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>8:30</span> - <span>9:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>9:30</span> - <span>10:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>10:30</span> - <span>11:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>13:30</span> - <span>14:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>14:30</span> - <span>15:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>15:30</span> - <span>16:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>16:30</span> - <span>17:30</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a class="timing" href="#">
+                                                                        <span>7:30</span> - <span>8:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>8:30</span> - <span>9:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>9:30</span> - <span>10:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>10:30</span> - <span>11:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>13:30</span> - <span>14:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>14:30</span> - <span>15:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>15:30</span> - <span>16:30</span>
+                                                                    </a>
+                                                                    <a class="timing" href="#">
+                                                                        <span>16:30</span> - <span>17:30</span>
+                                                                    </a>
+                                                                </li>*@
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"><b>Phương thức thanh toán : </b></label>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="paymentMethod" id="momoRadio" value="momo">
+                                <label class="form-check-label" for="momoRadio">
+                                    <img src="~/FileUploads/imghome/2.png" alt="MoMo">
+                                </label>
+                            </div>
+                            @*
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="paymentMethod" id="vnpayRadio" value="vnpay">
+                                <label class="form-check-label" for="vnpayRadio">
+                                    <img src="~/FileUploads/imghome/1.png" alt="VNPay">
+                                </label>
+                            </div>*@
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="paymentMethod" id="firstbooking" value="vnpay">
+                                <label class="form-check-label" for="firstbooking">
+                                    Thanh toán tại phòng khám
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="col-form-label"><b>Phí khám: 150.000đ</b></label>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal" data-original-title="" title="">Đóng</button>
+                    <button class="btn btn-primary" type="button" data-original-title="" onclick="saveBooking()" title="">Thanh Toán</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Start Button Scroll UP -->
+    <div class="Scroll-up">
+        <i class="fa fa-stethoscope" aria-hidden="true"></i>
+    </div>
+    <script src="~/Content/theme/js/jquery.min.js"></script>
+    <script src="~/Content/theme/js/jquery.min.js"></script>
+
+    <script src="~/Content/theme/js/popper.min.js"></script>
+    <script src="~/Content/theme/js/bootstrap.min.js"></script>
+
+    <script src="~/Content/plugin/notifyjs/lobibox.min.js"></script>
+
+    <script src="~/Scripts/js/base/common.js"></script>
+
+    <script src="~/Areas/Admin/Content/js/base/ajax.js"></script>
+    <!---->
+    <script data-cfasync="false" src="../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
+
+    <script src="~/Content/assets/js/popper.min.js"></script>
+    <script src="~/Content/assets/js/bootstrap.min.js"></script>
+
+    <script src="~/Content/assets/js/moment.min.js"></script>
+    <script src="~/Content/assets/plugins/daterangepicker/daterangepicker.js"></script>
+
+    <script src="~/Content/assets/js/script.js"></script>
+    <!---->
+    <script src="~/Scripts/alertify.min.js"></script>
+    @RenderSection("Scripts", required: false)
+
+<script type="text/javascript">
+        var scrollButton = $(".Scroll-up");
+        $(window).on("scroll", function () {
+            if ($(this).scrollTop() >= 500) {
+                scrollButton.show();
+            } else {
+                scrollButton.hide();
+            }
+        });
+        scrollButton.on("click",
+            function () {
+                $("html,body").animate({
+                    scrollTop: 0
+                },
+                    1e3);
+            });
+
+        function getDataDoctor(doctorId) {
+
+            ajax.get(`/doctor/getJson`,
+                { id: doctorId },
+                (response) => {
+                    if (response.status) {
+                        const obj = response.data;
+                        if (obj) {
+                            //$("#ImgAvt").attr("src", obj.Avatar);
+                            //$(".link-to-detail-doctor").attr("href", `/doctor/detail?id=${obj.Id}`);
+                            //$("#doctor-name").text(obj.Name);
+                            //$("#doctor-id").val(obj.Id);
+                            //$("#doctor-address").text(obj.Address);
+
+                            //$("#exampleModal").modal('show');
+                            setHtml({});
+                            setHtml(obj);
+                        }
+                    }
+                },
+                (jqXhr, textStatus) => {
+                    const mess = `Request failed: ${textStatus}`;
+                    Lobibox.alert("error", {
+                        msg: "Đăng nhập để tiếp tục!"
+                    });
+                }
+            );
+        }
+        function bookNow(doctorId) {
+            getDataDoctor(doctorId);
+            initFrameTimes(doctorId);
+        }
+        function dateTimeSelectOnChange() {
+            var doctorId = $("#doctor-id").val();
+            initFrameTimes(doctorId);
+        }
+        function saveBooking() {
+            debugger;
+            var doctorId = $("#doctor-id").val();
+            var formData = new FormData(document.getElementById('form-book-doctor'));
+            const selectTimeValue = $('.time-slot ul li a.timing.active_select').data('value');
+            if (!selectTimeValue) {
+                Lobibox.alert("error", {
+                    msg: 'Vui lòng chọn khung giờ!'
+                });
+                return;
+            }
+            formData.append("frameTime", selectTimeValue);
+
+            if ($('#momoRadio').is(':checked')) {
+                ajax.createOrUpdate(`/home/GetPaymentMomoUrl`,
+                    formData,
+                    (response) => {
+                        if (response.status) {
+                            window.location.href = response.url;
+                        } else {
+                            if (response.isExist) {
+                                //Lobibox.alert("error", {
+                                //    msg:
+                                //});
+                                Lobibox.confirm({
+                                    msg: response.mess,
+                                    callback: function ($this, type, ev) {
+                                        if (type === 'yes') {
+                                            loadDoctorPropose(formData,
+                                                (res) => {
+                                                    if (res.status) {
+                                                        if (res.isLoadInfo) {
+                                                            getDataDoctor(res.data);
+                                                            initFrameTimes(res.data);
+                                                        } else {
+                                                            Lobibox.alert("error", {
+                                                                msg: res.mess
+                                                            });
+                                                        }
+                                                    }
+                                                },
+                                                (jqXhr, textStatus) => {
+                                                    const mess = `Request failed: ${textStatus}`;
+                                                    Lobibox.alert("error", {
+                                                        msg: mess
+                                                    });
+                                                }
+                                            );
+                                        }
+                                    }
+                                });
+                                return;
+                            }
+                            Lobibox.alert("error", {
+                                msg: response.mess
+                            });
+                        }
+                    },
+                    (jqXhr, textStatus) => {
+                        const mess = `Request failed: ${textStatus}`;
+                        Lobibox.alert("error", {
+                            msg: mess
+                        });
+                    }
+                )
+            }
+            ////
+            else if ($('#vnpayRadio').is(':checked')) {
+                ajax.createOrUpdate(`/home/GetPaymentMomoUrl`,
+                    formData,
+                    (response) => {
+                        if (response.status) {
+                        window.location.href = '@Url.Action("Payment")';
+                        initFrameTimes(doctorId);
+                        } else {
+                            if (response.isExist) {
+                                Lobibox.confirm({
+                                    msg: response.mess,
+                                    callback: function ($this, type, ev) {
+                                        if (type === 'yes') {
+                                            loadDoctorPropose(formData,
+                                                (res) => {
+                                                    if (res.status) {
+                                                        if (res.isLoadInfo) {
+                                                            getDataDoctor(res.data);
+                                                            initFrameTimes(res.data);
+                                                        } else {
+                                                            Lobibox.alert("error", {
+                                                                msg: res.mess
+                                                            });
+                                                        }
+                                                    }
+                                                },
+                                                (jqXhr, textStatus) => {
+                                                    const mess = `Request failed: ${textStatus}`;
+                                                    Lobibox.alert("error", {
+                                                        msg: mess
+                                                    });
+                                                }
+                                            );
+                                        }
+                                    }
+                                });
+                                return;
+                            }
+                            Lobibox.alert("error", {
+                                msg: response.mess
+                            });
+                        }
+                    },
+                    (jqXhr, textStatus) => {
+                        const mess = `Request failed: ${textStatus}`;
+                        Lobibox.alert("error", {
+                            msg: mess
+                        });
+                    }
+                )
+            }
+            else if ($('#firstbooking').is(':checked')) {
+                ajax.createOrUpdate(`/doctor/book`,
+                    formData,
+                    (response) => {
+                        if (response.status) {
+                                                  Lobibox.alert("success", {
+                            msg: response.mess
+                      });
+                      initFrameTimes(doctorId);
+                        } else {
+                            if (response.isExist) {
+                                Lobibox.confirm({
+                                    msg: response.mess,
+                                    callback: function ($this, type, ev) {
+                                        if (type === 'yes') {
+                                            loadDoctorPropose(formData,
+                                                (res) => {
+                                                    if (res.status) {
+                                                        if (res.isLoadInfo) {
+                                                            getDataDoctor(res.data);
+                                                            initFrameTimes(res.data);
+                                                        } else {
+                                                            Lobibox.alert("error", {
+                                                                msg: res.mess
+                                                            });
+                                                        }
+                                                    }
+                                                },
+                                                (jqXhr, textStatus) => {
+                                                    const mess = `Request failed: ${textStatus}`;
+                                                    Lobibox.alert("error", {
+                                                        msg: mess
+                                                    });
+                                                }
+                                            );
+                                        }
+                                    }
+                                });
+                                return;
+                            }
+                            Lobibox.alert("error", {
+                                msg: response.mess
+                            });
+                        }
+                    },
+                    (jqXhr, textStatus) => {
+                        const mess = `Request failed: ${textStatus}`;
+                        Lobibox.alert("error", {
+                            msg: mess
+                        });
+                    }
+                )
+            }
+            else {
+                Lobibox.alert("error", {
+                    msg: 'Bạn cần chọn phương thức thanh toán để tiếp tục'
+                });
+            }
+
+            //ajax.createOrUpdate(`/doctor/book`,
+            //    formData,
+            //    (response) => {
+            //        if (response.status) {
+            //            Lobibox.alert("success", {
+            //                msg: response.mess
+            //            });
+            //            initFrameTimes(doctorId);
+
+            //        } else {
+            //            if (response.isExist) {
+            //                //Lobibox.alert("error", {
+            //                //    msg:
+            //                //});
+            //                Lobibox.confirm({
+            //                    msg: response.mess,
+            //                    callback: function ($this, type, ev) {
+            //                        if (type === 'yes') {
+            //                            loadDoctorPropose(formData,
+            //                                (res) => {
+            //                                    if (res.status) {
+            //                                        if (res.isLoadInfo) {
+            //                                            getDataDoctor(res.data);
+            //                                            initFrameTimes(res.data);
+            //                                        } else {
+            //                                            Lobibox.alert("error", {
+            //                                                msg: res.mess
+            //                                            });
+            //                                        }
+            //                                    }
+            //                                },
+            //                                (jqXhr, textStatus) => {
+            //                                    const mess = `Request failed: ${textStatus}`;
+            //                                    Lobibox.alert("error", {
+            //                                        msg: mess
+            //                                    });
+            //                                }
+            //                            );
+            //                        }
+            //                    }
+            //                });
+            //                return;
+            //            }
+            //            Lobibox.alert("error", {
+            //                msg: response.mess
+            //            });
+            //        }
+            //    },
+            //    (jqXhr, textStatus) => {
+            //        const mess = `Request failed: ${textStatus}`;
+            //        Lobibox.alert("error", {
+            //            msg: mess
+            //        });
+            //    }
+            //);
+        }
+        function loadDoctorPropose(data, _successCallBack, _errorCallBack) {
+            ajax.createOrUpdate('@Url.Action("GetDoctorPropose", "Doctor")', data, _successCallBack, _errorCallBack);
+        }
+        function initFrameTimes(doctorId) {
+            loadFrameTimes(doctorId,
+                (res) => {
+                    const $el = $('#data-frame-times');
+                    $el.html();
+                    const data = [];
+                    let rawItem = "";
+                    res.data.forEach((item, index) => {
+                        rawItem += `<a class="timing ${index === 0 ? 'active_select' : ''} ${item.Disabled ? 'disable' : ''}"  href="#" data-value="${item.Value}">${item.Text}</a>`;
+                    });
+                    $el.html(rawItem);
+                },
+                (jqXhr, textStatus) => {
+                    const mess = `Request failed: ${textStatus}`;
+                    Lobibox.alert("error", {
+                        msg: mess
+                    });
+                }
+            )
+        }
+        function loadFrameTimes(doctorId, _successCallBack, _errorCallBack) {
+            var formData = new FormData();
+            formData.append('doctorId', doctorId);
+            formData.append('time', $('.date-time-select').val());
+            ajax.createOrUpdate('@Url.Action("GetListFrameTimes", "Doctor")', formData, _successCallBack, _errorCallBack);
+        }
+        function setHtml(obj) {
+            $("#ImgAvt").attr("src", obj.Avatar);
+            $(".link-to-detail-doctor").attr("href", `/doctor/detail?id=${obj.Id}`);
+            $("#doctor-name").text(obj.Name);
+            $("#doctor-id").val(obj.Id);
+            $("#doctor-des").text(obj.Descriptions);
+            $("#doctor-email").text(obj.Email);
+            $("#doctor-phone").text(obj.Phone);
+            $("#doctor-address").text(obj.Address);
+            $("#exampleModal").modal('show');
+        }
+</script>
+    <style>
+        .active_select {
+            background-color: #1860ca !important;
+            color: white !important;
+        }
+
+        .time-slot ul li {
+            display: flex;
+            flex-direction: row;
+            align-content: space-around;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+        }
+
+        .disable {
+            background-color: #bfbfbf !important;
+            color: white;
+        }
+
+        .active_select.disable {
+            background-color: #1860ca !important;
+            color: white !important;
+        }
+
+        .time-slot li .timing:last-child {
+            margin-bottom: 10px;
+        }
+    </style>
+    <script>
+        const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const today = new Date();
+        const dayOfWeek = daysOfWeek[today.getDay()];
+        //document.getElementById("dayOfWeek").textContent = dayOfWeek;
+
+        // select default khung gio dau tien
+        $(document).on('click', '.time-slot ul li a.timing', function (e) {
+            e.preventDefault();
+            $('.time-slot ul li a.timing').removeClass('active_select');
+            var $this = $(this);
+            //$('.time-slot ul li a.timing').removeClass('active_select');
+            //console.log($this);
+            $this.addClass('active_select');
+        });
+
+    </script>
+</body>
+</html>

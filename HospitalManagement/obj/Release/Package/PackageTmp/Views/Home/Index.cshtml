@@ -1,0 +1,354 @@
+﻿@using BELibrary.Entity
+@{
+    var doctors = (List<Doctor>)ViewBag.Doctors ?? new List<Doctor>();
+    var faculties = (List<Faculty>)ViewBag.Faculties ?? new List<Faculty>();
+    var latestPosts = (List<Article>)ViewBag.LatestPosts ?? new List<Article>();
+
+}
+@functions {
+    public string TruncateString(string value, int maxLength)
+    {
+        if (string.IsNullOrEmpty(value)) return value;
+        return value.Length <= maxLength ? value : value.Substring(0, maxLength) + "...";
+    }
+}
+<!--Tab-->
+<div class="home-banner">
+    <div class="dot-slider slider">
+        <div class="profile-widget">
+            <div class="pro-img">
+                <a href="javascript:void(0);">
+                    <img class="img-fluid" src="~/FileUploads/imghome/slider-4.jpg" />
+                </a>
+            </div>
+        </div>
+        <div class="profile-widget">
+            <div class="pro-img">
+                <a href="javascript:void(0);">
+                    <img class="img-fluid" src="~/FileUploads/imghome/slider-5.jpg" />
+                </a>
+            </div>
+        </div>
+        <div class="profile-widget">
+            <div class="pro-img">
+                <a href="javascript:void(0);">
+                    <img class="img-fluid" src="~/FileUploads/imghome/slider-6.jpg" />
+                </a>
+            </div>
+        </div>
+        <div class="profile-widget">
+            <div class="pro-img">
+                <a href="javascript:void(0);">
+                    <img class="img-fluid" src="~/FileUploads/imghome/slider-7.jpg" />
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="banner-wrapper doc-form">
+            <div class="app-form">
+                <h2>Tìm kiếm Bác Sĩ <span class="header-highlight"> Tạo lịch hẹn khám </span></h2>
+                <form action="/doctor/search" class="doctor-search-form">
+                    <div class="row">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="form-group">
+                                <div class="form-custom">
+                                    <input type="text" class="form-control" value="" placeholder="Nhập thông tin bác sĩ" name="query">
+                                    <i class="far fa-compass"></i>
+                                </div><br />
+                                <span> Ví dụ: Nguyễn Thị Hoài An, Trần Minh Khuyên, ...</span>
+                            </div>
+                        </div>
+                        <div class="col-md-5 col-lg-4">
+                            <button type="submit" class="btn banner-btn"><i class="fas fa-search"></i> <span>Tìm Kiếm</span></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Tab-->
+<!--Tab-->
+<section class="category-sec">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="set-category">
+                    <div class="d-flex align-items-center">
+                        <div class="img-holder">
+                            <a href="javascript:void(0);"><img src="~/FileUploads/imghome/set-cat-01.png" /></a>
+                        </div>
+                        <div class="info-holder">
+                            <h3>Bác Sĩ</h3>
+                            <p>
+                                Bác sĩ là chuyên gia y tế có kiến thức chuyên môn và kinh nghiệm thực tiễn để chẩn đoán và điều trị các bệnh lý của bệnh nhân, với trách nhiệm chăm sóc và cải thiện sức khỏe cho cộng đồng.
+                            </p>
+                            <a href="/doctor" class="book-now">Xem thêm<i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <h1>01</h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="set-category light">
+                    <div class="d-flex align-items-center">
+                        <div class="img-holder">
+                            <a href="javascript:void(0);"><img src="~/FileUploads/imghome/set-cat-02.png" /></a>
+                        </div>
+                        <div class="info-holder">
+                            <h3>Chuyên Khoa</h3>
+                            <p>Lĩnh vực y tế chuyên sâu nghiên cứu và điều trị các bệnh tật về một cơ quan hoặc hệ thống cơ quan cụ thể, bác sĩ có kiến thức chuyên môn sâu rộng và kỹ năng thực hành cao để có phương pháp điều trị hiệu quả nhất.</p>
+                            <a href="/doctor" class="book-now">Xem thêm<i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <h1>02</h1>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="set-category lighter">
+                    <div class="d-flex align-items-center">
+                        <div class="img-holder">
+                            <a href="javascript:void(0);"><img src="~/FileUploads/imghome/set-cat-03.png" /></a>
+                        </div>
+                        <div class="info-holder">
+                            <h3>Tin Tức</h3>
+                            <p>Bài viết về phòng khám có thể bao gồm các thông tin các dịch vụ và chuyên khoa được cung cấp, các tiêu chuẩn chất lượng, đánh giá của khách hàng và lợi ích của việc đến khám bệnh tại phòng khám.</p>
+                            <a href="/article" class="book-now">Xem thêm<i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <h1>03</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Tab-->
+<!--Tab-->
+<section class="browse-speciality">
+    <div class="container">
+        <div class="sec-header">
+            <h2>Chuyên Khoa</h2>
+            <span class="bottom-border"></span>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="browse-slider slider">
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/01.png" />
+                        <div class="overlay">
+                            <h3>Khoa Tai mũi họng</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/02.png" />
+                        <div class="overlay">
+                            <h3>Khoa Hô hấp - phổi</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/03.png" />
+                        <div class="overlay">
+                            <h3>Khoa Tiêu hóa</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/04.png" />
+                        <div class="overlay">
+                            <h3>Khoa Châm cứu</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/05.png" />
+                        <div class="overlay">
+                            <h3>Khoa Nội thận</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/6.png" />
+                        <div class="overlay">
+                            <h3>Khoa Ngoại tổng quát</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/7.png" />
+                        <div class="overlay">
+                            <h3>Khoa Cột sống</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/8.png" />
+                        <div class="overlay">
+                            <h3>Khoa Xét nghiệm</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/9.png" />
+                        <div class="overlay">
+                            <h3>Khoa Cơ xương khớp</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/10.png" />
+                        <div class="overlay">
+                            <h3>Khoa Thần kinh</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/11.png" />
+                        <div class="overlay">
+                            <h3>Khoa Y học cổ truyền</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="profile-widget browse-widget">
+                        <img src="~/FileUploads/doctor/12.png" />
+                        <div class="overlay">
+                            <h3>Khoa Tim mạch</h3>
+                            <a href="/doctor" class="arrows"><i class="fas fa-long-arrow-alt-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Tab-->
+<section class="section section-doctor">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="section-header ">
+                    <h2>Đặt Hẹn Khám Bệnh</h2>
+                    <p>Lên lịch hẹn trực tiếp với đội ngũ y bác sĩ tại Minh Thọ Clinic </p>
+                </div>
+                <div class="about-content">
+                    <p>Bác sĩ tại Minh Thọ Clinic là chuyên gia y tế có trình độ và kinh nghiệm để chẩn đoán và điều trị các bệnh lý của bệnh nhân. Họ có trách nhiệm chăm sóc và điều trị các bệnh nhân đến phòng khám, thực hiện các xét nghiệm và chẩn đoán bệnh tình của họ.</p>
+                    <p>Tại đây Minh Thọ Clinic có thể đưa ra các khuyến nghị về lối sống và các biện pháp phòng ngừa để giúp bệnh nhân cải thiện sức khỏe và tránh các bệnh lý trong tương lai.</p>
+                    <a href="/doctor">Xem thêm</a>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="doctor-slider slider">
+
+                    @foreach (var doctor in doctors)
+                    {
+                        <div class="profile-widget" style="min-height: 600px;">
+                            <div class="doc-img">
+                                <a href="/doctor/detail?id=@doctor.Id">
+                                    <img class="img-fluid" alt="User Image" src="@doctor.Avatar">
+                                </a>
+                                <a href="javascript:void(0)" class="fav-btn">
+                                    <i class="far fa-bookmark"></i>
+                                </a>
+                            </div>
+                            <div class="pro-content" style="min-height: 285px;">
+                                <h3 class="title">
+                                    <a href="/doctor/detail?id=@doctor.Id">@doctor.Name</a>
+                                    <i class="fas fa-check-circle verified"></i>
+                                </h3>
+                                <p class="speciality">@doctor.Descriptions</p>
+                                <div class="rating">
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <i class="fas fa-star filled"></i>
+                                    <span class="d-inline-block average-rating"></span>
+                                </div>
+                                <ul class="available-info">
+                                    <li>
+                                        <i class="fas fa-phone"></i> @doctor.Phone
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-envelope"></i> @doctor.Email
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-stethoscope"></i> @doctor.Faculty.Name
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="control">
+                                <div class="row row-sm">
+                                    <div class="col-6">
+                                        <a href="/doctor/detail?id=@doctor.Id" class="btn view-btn">Xem Hồ Sơ</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a href="javascript:void(0)" onclick="bookNow('@doctor.Id')" class="btn book-btn">Đặt Hẹn Ngay!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Tab-->
+<!--Tab-->
+<section class="blogs-section">
+    <div class="container">
+        <div class="sec-header">
+            <h2>Tin Tức Nổi Bật</h2>
+            <span class="bottom-border"></span>
+        </div>
+        <div class="row">
+            @foreach (var art in latestPosts)
+            {
+                <div class="col-md-6 col-lg-3">
+                    <div class="blog-wrapper">
+                        <div class="wrap-image">
+                            <a href="/article/detail?id=@art.Id">
+                                <img src="@art.Image" alt="@art.Title" style="max-height: 400px;" />
+                            </a>
+                        </div>
+                        <div class="wrap-content">
+                            <div class="d-flex">
+                                <span class="sp-title">Tin Tức Nổi bật</span>
+                                <div class="post-author">
+                                    <a href="#">
+                                    </a>
+                                </div>
+                                <p class="date-cart"><span>@art.CreatedDate</span></p>
+                            </div>
+                            <div class="wrap-content-body">
+                                <h3 style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis;"><a href="/article/detail?id=@art.Id">@art.Title</a></h3>
+                                <p>@TruncateString(art.Description, 50)</p>
+                                <a href="/article/detail?id=@art.Id" class="read-txt">Xem thêm</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+@section Scripts
+{
+    <script src="~/Content/theme/js/slick.js"></script>
+    <script src="~/Content/theme/js/script.js"></script>
+} 

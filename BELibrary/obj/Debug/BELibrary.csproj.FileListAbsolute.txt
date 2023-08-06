@@ -1,0 +1,108 @@
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\BELibrary.dll.config
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\BELibrary.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\BELibrary.pdb
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\AutoMapper.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\AutoMapper.pdb
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\AutoMapper.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.Migrations.init.resources
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.dll
+C:\Users\Admin\Desktop\clinic-main\BELibrary\obj\Debug\BELibrary.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\BELibrary.dll.config
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\BELibrary.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\BELibrary.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\AutoMapper.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\System.ValueTuple.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\AutoMapper.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\AutoMapper.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\System.ValueTuple.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.Migrations.init.resources
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.dll
+C:\Users\Admin\Desktop\MinhThoClinic\minhthoclinic\BELibrary\obj\Debug\BELibrary.pdb
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\BELibrary.dll.config
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\BELibrary.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\BELibrary.pdb
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\AutoMapper.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\EntityFramework.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\System.ValueTuple.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\AutoMapper.pdb
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\AutoMapper.xml
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\EntityFramework.xml
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\System.ValueTuple.xml
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+D:\KLTN\minhthoclinic\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.dll
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.pdb
+D:\KLTN\minhthoclinic\BELibrary\obj\Debug\BELibrary.Migrations.New_DetailRecord_table.resources
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\BELibrary.dll.config
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\BELibrary.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\BELibrary.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\AutoMapper.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\EntityFramework.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\System.ValueTuple.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Extensions.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\Z.Expressions.Eval.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\AutoMapper.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\AutoMapper.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\AutoMapper.Extensions.Microsoft.DependencyInjection.pdb
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\EntityFramework.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\System.ValueTuple.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Extensions.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\bin\Debug\Z.Expressions.Eval.xml
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.AssemblyReference.cache
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.Migrations.New_DetailRecord_table.resources
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.GenerateResource.cache
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.CoreCompileInputs.cache
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.csproj.CopyComplete
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.dll
+D:\KLTN\Báo cáo khóa luận\minhthoclinic\BELibrary\obj\Debug\BELibrary.pdb

@@ -1,0 +1,330 @@
+﻿@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model BELibrary.Entity.Doctor
+
+<div class="breadcrumb-bar">
+    <div class="container-fluid">
+        <div class="row align-items-center">
+            <div class="col-md-12 col-12">
+                <nav aria-label="breadcrumb" class="page-breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="/">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Doctor Profile</li>
+                    </ol>
+                </nav>
+                <h2 class="breadcrumb-title">Doctor Profile</h2>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="content">
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <div class="doctor-widget">
+                    <div class="doc-info-left">
+                        <div class="doctor-img">
+                            <img src="@Model.Avatar" class="img-fluid" alt="User Image">
+                        </div>
+                        <div class="doc-info-cont">
+                            <h4 class="doc-name">@Model.Name</h4>
+                            <p class="doc-speciality">@Model.Descriptions</p>
+                            <p class="doc-department"> @Model.Faculty.Name</p>
+                            <div class="rating">
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star filled"></i>
+                                <i class="fas fa-star"></i>
+                                <span class="d-inline-block average-rating">(35)</span>
+                            </div>
+                            <div class="clinic-details">
+                                <p class="doc-location"><i class="fas fa-map-marker-alt"></i> @Model.Address</p>
+                                <ul class="clinic-gallery">
+                                    <li>
+                                        <a href="~/Content/theme/img/features/feature-01.jpg" data-fancybox="gallery">
+                                            <img src="~/Content/theme/img/features/feature-01.jpg" alt="Feature">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/Content/theme/img/features/feature-02.jpg" data-fancybox="gallery">
+                                            <img src="~/Content/theme/img/features/feature-02.jpg" alt="Feature Image">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/Content/theme/img/features/feature-03.jpg" data-fancybox="gallery">
+                                            <img src="~/Content/theme/img/features/feature-03.jpg" alt="Feature">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="~/Content/theme/img/features/feature-04.jpg" data-fancybox="gallery">
+                                            <img src="~/Content/theme/img/features/feature-04.jpg" alt="Feature">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="clinic-services">
+                                <span>Dental Fillings</span>
+                                <span>Teeth Whitneing</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="doc-info-right">
+                        <div class="clini-infos">
+                            <ul>
+                                <li><i class="far fa-thumbs-up"></i> 99%</li>
+                                <li><i class="far fa-comment"></i> 35 Feedback</li>
+                                <li><i class="fas fa-map-marker-alt"></i> @Model.Address</li>
+                                <li><i class="fas fa-phone"></i> @Model.Phone</li>
+                            </ul>
+                        </div>
+                        <div class="doctor-action">
+                            <a href="javascript:void(0)" class="btn btn-white fav-btn">
+                                <i class="far fa-bookmark"></i>
+                            </a>
+                            <a href="chat.html" class="btn btn-white msg-btn">
+                                <i class="far fa-comment-alt"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="btn btn-white call-btn" data-toggle="modal" data-target="#voice_call">
+                                <i class="fas fa-phone"></i>
+                            </a>
+                            <a href="javascript:void(0)" class="btn btn-white call-btn" data-toggle="modal" data-target="#video_call">
+                                <i class="fas fa-video"></i>
+                            </a>
+                        </div>
+                        <div class="clinic-booking">
+                            <a class="apt-btn" href="javascript:void(0)" onclick="bookNow('@Model.Id')">Đặt Lịch Hẹn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body pt-0">
+
+                <nav class="user-tabs mb-4">
+                    <ul class="nav nav-tabs nav-tabs-bottom nav-justified">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#doc_overview" data-toggle="tab">Thông Tin Chi Tiết</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#doc_business_hours" data-toggle="tab">Business Hours</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="tab-content pt-0">
+
+                    <div role="tabpanel" id="doc_overview" class="tab-pane fade show active">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-9">
+
+                                <div class="widget about-widget">
+                                    <h4 class="widget-title">Bác Sĩ @Model.Name</h4>
+                                    <p>@Model.Descriptions </p>
+                                </div>
+                                <!--                                <div class="widget education-widget">
+                                    <h4 class="widget-title">Education</h4>
+                                    <div class="experience-box">
+                                        <ul class="experience-list">
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <a href="#/" class="name">American Dental Medical University</a>
+                                                        <div>BDS</div>
+                                                        <span class="time">1998 - 2003</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <a href="#/" class="name">American Dental Medical University</a>
+                                                        <div>MDS</div>
+                                                        <span class="time">2003 - 2005</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="widget experience-widget">
+                                    <h4 class="widget-title">Work & Experience</h4>
+                                    <div class="experience-box">
+                                        <ul class="experience-list">
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <a href="#/" class="name">Glowing Smiles Family Dental Clinic</a>
+                                                        <span class="time">2010 - Present (5 years)</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <a href="#/" class="name">Comfort Care Dental Clinic</a>
+                                                        <span class="time">2007 - 2010 (3 years)</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <a href="#/" class="name">Dream Smile Dental Practice</a>
+                                                        <span class="time">2005 - 2007 (2 years)</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="widget awards-widget">
+                                    <h4 class="widget-title">Awards</h4>
+                                    <div class="experience-box">
+                                        <ul class="experience-list">
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <p class="exp-year">July 2019</p>
+                                                        <h4 class="exp-title">Humanitarian Award</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <p class="exp-year">March 2011</p>
+                                                        <h4 class="exp-title">Certificate for International Volunteer Service</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="experience-user">
+                                                    <div class="before-circle"></div>
+                                                </div>
+                                                <div class="experience-content">
+                                                    <div class="timeline-content">
+                                                        <p class="exp-year">May 2008</p>
+                                                        <h4 class="exp-title">The Dental Professional of The Year Award</h4>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin a ipsum tellus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>-->
+
+
+                                <div class="service-list">
+                                    <h4>Dịch Vụ</h4>
+                                    <ul class="clearfix">
+                                        <li>Tooth cleaning </li>
+                                        <li>Root Canal Therapy</li>
+                                        <li>Implants</li>
+                                        <li>Composite Bonding</li>
+                                        <li>Fissure Sealants</li>
+                                        <li>Surgical Extractions</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div role="tabpanel" id="doc_business_hours" class="tab-pane fade">
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3">
+
+                                <div class="widget business-widget">
+                                    <div class="widget-content">
+                                        <div class="listing-hours">
+                                            <div class="listing-day current">
+                                                <div class="day">Today <span>5 Nov 2019</span></div>
+                                                <div class="time-items">
+                                                    <span class="open-status"><span class="badge bg-success-light">Open Now</span></span>
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day">
+                                                <div class="day">Monday</div>
+                                                <div class="time-items">
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day">
+                                                <div class="day">Tuesday</div>
+                                                <div class="time-items">
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day">
+                                                <div class="day">Wednesday</div>
+                                                <div class="time-items">
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day">
+                                                <div class="day">Thursday</div>
+                                                <div class="time-items">
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day">
+                                                <div class="day">Friday</div>
+                                                <div class="time-items">
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day">
+                                                <div class="day">Saturday</div>
+                                                <div class="time-items">
+                                                    <span class="time">07:00 AM - 09:00 PM</span>
+                                                </div>
+                                            </div>
+                                            <div class="listing-day closed">
+                                                <div class="day">Sunday</div>
+                                                <div class="time-items">
+                                                    <span class="time"><span class="badge bg-danger-light">Closed</span></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
